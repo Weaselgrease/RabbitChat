@@ -1,8 +1,12 @@
 #include <iostream>
 using namespace std;
-int main()
+namespace RCCore
 {
-	cout << "AMG HI WORLD\n";
-	cout << "U So pritteh.\n";
-	system("pause");
+	int main()
+	{
+		cout << "AMG HI WORLD\n";
+		cout << "U So pritteh.\n";
+		system("pause");
+		return 0;
+	}
 }
