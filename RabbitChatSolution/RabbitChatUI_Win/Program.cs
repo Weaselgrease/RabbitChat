@@ -2,21 +2,17 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using RCClient;
+using RabbitChat;
 
-namespace RCClient
+
+namespace RabbitChatUI_Win
 {
     class Program
     {
-        public extern static int check();
-        
-
         static void Main(string[] args)
         {
-            
-            Console.WriteLine();
+            Console.WriteLine("The version is {0}.", Core.VERSIONSTRING);
             Console.ReadLine();
-
         }
     }
 }
