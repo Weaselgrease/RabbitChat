@@ -39,6 +39,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <TargetExt>.dll</TargetExt>
+    <IncludePath>C:\Users\ForesmanD\Documents\GitHub\RabbitChat\RabbitChatSolution\icu\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\ForesmanD\Documents\GitHub\RabbitChat\RabbitChatSolution\icu\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

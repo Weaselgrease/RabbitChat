@@ -1,5 +1,8 @@
 #pragma once
 #include "stdafx.h"
+#include "unicode/utypes.h"
+
+#define U_NO_DEFAULT_INCLUDE_UTF_HEADERS 1;
 
 namespace RabbitChat
 {
@@ -10,6 +13,6 @@ namespace RabbitChat
 			~Core(void);
 			static const int VERSION =1;
 			int GetVersion(void);
-			static const char* VERSIONSTRING;
+			static const UnicodeString VERSIONSTRING = "hi";
 	};
 }
