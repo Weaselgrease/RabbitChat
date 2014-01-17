@@ -1,17 +1,20 @@
+#include "StdAfx.h"
 #include "Core.h"
 
-using namespace RabbitChat;
+using namespace RabbitChatCore;
+
+const char* Core::VERSIONSTRING = "0.1";
 
 Core::Core(void)
 {
-	VERSIONSTRING = "v0.1";
+	
 }
 
 Core::~Core(void)
 {
 }
 
-int Core::GetVersion()
+void Core::GetVersionString(char* buffer)
 {
-	return VERSION;
+	buffer = strcpy(buffer, VERSIONSTRING);
 }

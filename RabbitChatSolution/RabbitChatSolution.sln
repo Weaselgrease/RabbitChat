@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RabbitChatCore", "RabbitChatCore\RabbitChatCore.vcxproj", "{B52085CE-8263-4AA0-9BB0-003CF2D48147}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitChatUI_Win", "RabbitChatUI_Win\RabbitChatUI_Win.csproj", "{E93C6E8E-7D6A-416B-85AC-F173323D22D4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RabbitChatUI_Win", "RabbitChatUI_Win\RabbitChatUI_Win.vcxproj", "{26328D8D-3873-4D6F-A78E-38DD197BB241}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,16 +25,16 @@ Global
 		{B52085CE-8263-4AA0-9BB0-003CF2D48147}.Release|Win32.ActiveCfg = Release|Win32
 		{B52085CE-8263-4AA0-9BB0-003CF2D48147}.Release|Win32.Build.0 = Release|Win32
 		{B52085CE-8263-4AA0-9BB0-003CF2D48147}.Release|x86.ActiveCfg = Release|Win32
-		{E93C6E8E-7D6A-416B-85AC-F173323D22D4}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{E93C6E8E-7D6A-416B-85AC-F173323D22D4}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{E93C6E8E-7D6A-416B-85AC-F173323D22D4}.Debug|Win32.ActiveCfg = Debug|x86
-		{E93C6E8E-7D6A-416B-85AC-F173323D22D4}.Debug|x86.ActiveCfg = Debug|x86
-		{E93C6E8E-7D6A-416B-85AC-F173323D22D4}.Debug|x86.Build.0 = Debug|x86
-		{E93C6E8E-7D6A-416B-85AC-F173323D22D4}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{E93C6E8E-7D6A-416B-85AC-F173323D22D4}.Release|Mixed Platforms.Build.0 = Release|x86
-		{E93C6E8E-7D6A-416B-85AC-F173323D22D4}.Release|Win32.ActiveCfg = Release|x86
-		{E93C6E8E-7D6A-416B-85AC-F173323D22D4}.Release|x86.ActiveCfg = Release|x86
-		{E93C6E8E-7D6A-416B-85AC-F173323D22D4}.Release|x86.Build.0 = Release|x86
+		{26328D8D-3873-4D6F-A78E-38DD197BB241}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{26328D8D-3873-4D6F-A78E-38DD197BB241}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{26328D8D-3873-4D6F-A78E-38DD197BB241}.Debug|Win32.ActiveCfg = Debug|Win32
+		{26328D8D-3873-4D6F-A78E-38DD197BB241}.Debug|Win32.Build.0 = Debug|Win32
+		{26328D8D-3873-4D6F-A78E-38DD197BB241}.Debug|x86.ActiveCfg = Debug|Win32
+		{26328D8D-3873-4D6F-A78E-38DD197BB241}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{26328D8D-3873-4D6F-A78E-38DD197BB241}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{26328D8D-3873-4D6F-A78E-38DD197BB241}.Release|Win32.ActiveCfg = Release|Win32
+		{26328D8D-3873-4D6F-A78E-38DD197BB241}.Release|Win32.Build.0 = Release|Win32
+		{26328D8D-3873-4D6F-A78E-38DD197BB241}.Release|x86.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
