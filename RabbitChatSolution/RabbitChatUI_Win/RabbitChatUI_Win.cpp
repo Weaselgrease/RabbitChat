@@ -4,7 +4,6 @@
 #include "stdafx.h"
 #include "UI.h"
 
-using namespace RabbitChatUI;
 int _tmain(int argc, _TCHAR* argv[])
 {
 	new UI();

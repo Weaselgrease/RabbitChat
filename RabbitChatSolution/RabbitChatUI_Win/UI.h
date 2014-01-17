@@ -2,13 +2,10 @@
 #include "Core.h"
 using namespace RabbitChatCore;
 
-namespace RabbitChatUI
+class UI
 {
-	class UI
-	{
-		public:
-			UI(void);
-			~UI(void);
-			Core* core;
-	};
-}
+	public:
+		UI(void);
+		~UI(void);
+		Core* core;
+};
